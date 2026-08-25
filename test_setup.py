@@ -1,1 +1,1 @@
-print("repo and VS Code are connected")
+print('testing to setup')
