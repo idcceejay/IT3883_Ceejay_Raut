@@ -6,7 +6,7 @@
 # Purpose: A text-based menu that asks the user for an integer and stores it in
 #          a list. The user can add integers, clear the list, display the list,
 #          or exit the program.
-# Resources: Claude (template structure, debugging hints, comment cleanup),
+# Resources: Claude (debugging hints, comment cleanup),
 #            Turbo AI (learning), GitHub (code snippets for arguments and parameters)
 
 
