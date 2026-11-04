@@ -27,11 +27,7 @@ def update(*args): #defines the function that will update the value of km/l with
     try: #Makes sure that the program does not crash if the user types a letter or leaves the box blank
         mpg = float(miles_entry.get()) #Converts the value of mpg to a float
         km_per_l = mpg * 0.425143707 #Converts the value of mpg to km/l
-<<<<<<< HEAD:Assignment_3/Assignment_3.py
         result_var.set(f"{km_per_l}") #Cuts the value of km/l to 2 decimal places
-=======
-        result_var.set(f"{km_per_l}")
->>>>>>> 9c0fb3b (Lab 4 Program A and B):Assignment_3.py
     except ValueError:
         result_var.set("Invalid input") #Displays "Invalid input" if the user types a letter or leaves the box blank
 
